@@ -1,0 +1,8 @@
+nmap -A -T4 -p- 10.10.176.15
+
+http://10.10.176.15:8081/ping?ip=127.0.0.1
+
+
+used burpe to find out about page
+found api.js read it found that line of code
+ran it in browser got RCE
